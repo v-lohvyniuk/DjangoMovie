@@ -94,6 +94,10 @@ class RatingStar(models.Model):
     def __str__(self):
         return self.value
 
+    def Meta(self):
+        verbose_name = "Зірки рейтингу"
+        verbose_name_plural = "Зірки рейтингу"
+
 
 class Rating(models.Model):
 
